@@ -10,13 +10,16 @@
 
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
-import Navigator from './src/config/navigator';
+
+// import {Provider} from 'react-redux';
+// import {store} from './src/redux';
 
 const App: React.FC = () => {
   return (
+    // <Provider store={store}>
     <View style={styles.container}>
-      <Navigator />
     </View>
+    // </Provider>
   );
 };
 
